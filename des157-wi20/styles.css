@@ -12,6 +12,7 @@ img{
 
 body{
     background-color: rgb(255, 246, 234);
+    background-image: url(images/paper.png);
     position: relative;
     align-content: center;
     padding: 10vw;

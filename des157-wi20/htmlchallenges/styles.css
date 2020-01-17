@@ -1,0 +1,79 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6em;
+    padding: 1.3em;
+    background-color: #FFF6EA;
+}
+
+header {
+    text-align: center;
+    background: rgb(187,71,29);
+    background: linear-gradient(90deg, rgba(187,71,29,1) 0%, rgba(170,39,39,1) 40%, rgba(125,37,83,1) 100%);
+    padding: 1em;
+}
+
+header h1 {
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #1C1938;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1, h2 {
+    color: #A34455;
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li a {
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; 
+    display: block;
+    background-color: #9B773C; 
+    padding: .8em;  
+}
+
+ul li a:hover {
+    background-color: #9B5D3C;
+}
+
+footer{
+    text-align: center;
+    background: rgb(187,71,29);
+    background: linear-gradient(90deg, rgba(187,71,29,1) 0%, rgba(170,39,39,1) 40%, rgba(125,37,83,1) 100%);
+}
+
+footer p{
+    color: white
+}
+
+.back {
+    padding: 50px;
+    background-size: cover;
+    background-image: url(images/city.jpg);
+}
+
+.back h2 {
+    color: white;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.back p {
+    color: white;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
