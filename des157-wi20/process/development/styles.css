@@ -1,0 +1,43 @@
+body{
+    align-content: center;
+    min-width: 800px;
+    max-width: 900px;
+    border: 10px solid #743DBE;
+    padding: 3em;
+    margin: auto;
+    font-family: 'Public Sans', sans-serif;
+    
+    background-image: url(images/paper.png);
+    background-color: rgb(255, 237, 213);
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #743DBE;
+}
+
+#pageContent{
+    overflow: auto;
+}
+
+img{
+    float: right;
+    max-height: 500px;
+    width: auto;
+    padding-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #743DBE;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1.5em;
+}
