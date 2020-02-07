@@ -14,9 +14,9 @@ body{
     background-color: rgb(255, 246, 234);
     background-image: url(images/paper.png);
     position: relative;
-    align-content: center;
-    padding: 10vw;
-    justify-content: center;
+    margin: auto;
+    padding: 1.8em;
+    min-width: 800px;
     max-width: 1200px;
 }
 
