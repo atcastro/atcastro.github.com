@@ -1,17 +1,15 @@
-function setup() {
-    var myCanvas = createCanvas(800, 250);
-    frameRate(8);
-    noStroke();
-    background(random(255), random(255), random(255));
+function setup(){
+    var myCanvas = createCanvas(800,250);
+    background(50,0,50);
     myCanvas.parent(mySketch);
-}
-  
-function draw() {
-    if(mouseIsPressed) {
-        fill(0);
-    } else {
-        fill(random(255), random(255), random(255), random(255));
     }
-    var circSize = random(200);
-    ellipse(mouseX, mouseY, circSize, circSize);
+    
+function draw(){
+    if(mouseIsPressed){
+        background(50,0,50);
+    } else{
+        noStroke();
+        fill(mouseX+50,0,mouseY+50);
+        ellipse(mouseX, mouseY, random(1,50), random(1,50));
+    }
 }
