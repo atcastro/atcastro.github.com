@@ -3,30 +3,37 @@
     height: 250px;
 } */
 
-img{
+#mySketch {
     width: 100%;
     height: auto;
-    max-width: 800px;
-    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
 }
 
 body{
-    background-color: rgb(255, 246, 234);
-    background-image: url(images/paper.png);
+    background-color: #4F2339;
+    color: #4F2339;
+    background-image: url(images/pattern.png);
     position: relative;
     margin: auto;
-    padding: 1.8em;
+    padding: 3em;
     min-width: 800px;
-    max-width: 1200px;
+    max-width: 1000px;
+    
 }
 
 header{
-    padding-bottom: 1.6em;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center; 
+    border-radius: 25px;
+    background-color: #FFF7F4;
+    margin-bottom: 2em;
 }
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #743DBE;
+    /* color: #743DBE; */
 }
 
 ul li {
@@ -34,7 +41,7 @@ ul li {
 }
 
 ul li a{
-    color: white;
+    color: #4F2339;
 }
 
 .flex-container {
@@ -42,24 +49,34 @@ ul li a{
     flex-wrap: wrap;
     flex-direction: row;
     padding-bottom: 2em;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-width: 1000px;
 }
 
 .flex-item {
-    background: rgb(255,117,181);
-    background: linear-gradient(0deg, rgba(255,117,181,1) 0%, rgba(253,104,106,1) 100%);
-    color: #FFF7F4;
+    /* background: rgb(255,117,181);
+    background: linear-gradient(0deg, rgba(255,117,181,1) 0%, rgba(253,104,106,1) 100%); */
+    background-color: #FFF7F4;
     width: 200px;
     height: 300px;
     margin: 1em;
-    margin-left: 0em;
     padding-left: 1.3em;
     padding-bottom: 1.3em;
+    border-radius: 25px;
+    border-width: 10px;
+    border-style: solid;
+
 }
+
+#one {border-color: #FF6B6B;}
+
+#two {border-color: #FFE66D;}
+
+#three { border-color: #4ECDC4;}
 
 .flex-item a{
     line-height: 1.5em;
+    
 }
 
 a {
@@ -72,15 +89,15 @@ a:hover {
 
 footer {
     text-align: center;
-    background: rgb(255,117,181);
-background: linear-gradient(0deg, rgba(255,117,181,1) 0%, rgba(253,104,106,1) 100%);
-    color: #FFF7F4;
+/*     background: rgb(255,117,181);
+    background: linear-gradient(0deg, rgba(255,117,181,1) 0%, rgba(253,104,106,1) 100%);
+ */    color: #FFF7F4;
     display: block;
     padding: 1em;
 }
 
 footer a{
-    color: #743DBE;
+    color: #FFF7F4;
 }
 
 @media only screen and (max-width: 800px) {

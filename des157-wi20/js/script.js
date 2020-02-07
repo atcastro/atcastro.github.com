@@ -1,15 +1,17 @@
 function setup(){
     var myCanvas = createCanvas(800,250);
-    background(50,0,50);
+    background('#4F2339');
     myCanvas.parent(mySketch);
-    }
+}
     
 function draw(){
+    let a;
     if(mouseIsPressed){
-        background(50,0,50);
+        background(79,35,57);
     } else{
-        noStroke();
-        fill(mouseX+50,0,mouseY+50);
-        ellipse(mouseX, mouseY, random(1,50), random(1,50));
+        a = random(1,70);
+        noFill();
+        stroke(mouseX+50,0,mouseY+50);
+        ellipse(mouseX, mouseY, a, a);
     }
 }
