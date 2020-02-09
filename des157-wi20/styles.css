@@ -36,6 +36,7 @@ h1, h2 {
     /* color: #743DBE; */
 }
 
+
 ul li {
     font-family: 'Public Sans', sans-serif;
 }
@@ -70,9 +71,27 @@ ul li a{
 
 #one {border-color: #FF6B6B;}
 
+#one a:hover{
+    color: #FF6B6B;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
 #two {border-color: #FFE66D;}
 
+#two a:hover{
+    color: rgb(219, 192, 53);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
 #three { border-color: #4EDEC4;}
+
+#three a:hover{
+    color: #4EDEC4;;
+    text-decoration: none;
+    transition: all 0.5s;
+}
 
 .flex-item a{
     line-height: 1.5em;

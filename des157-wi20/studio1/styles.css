@@ -1,0 +1,63 @@
+body {
+    background: rgb(28,37,65);
+    /* background: linear-gradient(90deg, rgba(28,37,65,1) 0%,
+     rgba(200,80,107,1) 74%, rgba(253,104,106,1) 100%); */
+    background-image: url(images/stardust.png);
+    color: #ffffff;
+    margin: auto;
+    position: relative;
+    padding: 3em;
+    min-width: 600px;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background-color: #5BC0BE;
+    width: fit-content;
+    padding: 0.8em;
+    border-radius: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+form {
+    padding-bottom: 3em;
+}
+input{
+    color: #3A506B;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #5BC0BE;
+    border-radius: 5px;
+  }
+
+
+p{
+    width: fit-content;
+    font-size: 25px;
+}
+
+#madlib {
+    
+    padding: 1.3em;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+footer {
+    font-family: 'Inconsolata', monospace;
+}
+
+a {
+    color: #5BC0BE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
