@@ -6,12 +6,15 @@ function setup(){
     
 function draw(){
     let a;
+    const colors= ["#FF6B6B", "#FFE66D", "#4EDEC4"]
+    let randomColor = colors[Math.floor(Math.random()*colors.length)];
     if(mouseIsPressed){
         background(79,35,57);
     } else{
         a = random(1,70);
         noFill();
-        stroke(mouseX+50,0,mouseY+50);
+        strokeWeight(3);
+        stroke(randomColor);
         ellipse(mouseX, mouseY, a, a);
     }
 }
