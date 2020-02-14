@@ -12,6 +12,7 @@ img{
 
  body{
     background-color: rgb(255, 246, 234);
+    background-image: url(images/pattern.png);
     position: relative;
     margin: auto;
     padding: 1.6em;
@@ -22,22 +23,37 @@ img{
 
 div{
     padding-bottom: 1.8em;
-}
-
-header{
-    padding-bottom: 1.6em;
-    color: #743DBE;
-}
-
-header a{
-    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 246, 234);
 }
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #743DBE;
+    color: #FFF7F4;
 }
 
+h2 {
+    color: #4F2339;
+}
+
+header{
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center; 
+    border-radius: 25px;
+    background-color: #4F2339;
+
+    margin-bottom: 2em;
+    color: #FFF7F4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h2 {
+    color: #FFF7F4;
+}
+
+header a {
+    color: #FFF7F4;
+}
 
 a {
     text-decoration: none;
@@ -50,14 +66,15 @@ a:hover {
 
 footer {
     text-align: center;
-    background: rgb(255,117,181);
+    background-color: #4F2339;
+    border-radius: 25px;
     color: #FFF7F4;
     display: block;
     padding: 1em;
 }
 
 footer a{
-    color: #743DBE;
+    color: #FFF7F4;
 }
 
 @media only screen and (max-width: 800px) {
