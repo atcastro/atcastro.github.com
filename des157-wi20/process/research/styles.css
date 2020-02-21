@@ -63,7 +63,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 footer {
     text-align: center;
     background-color: #4F2339;
@@ -71,6 +70,12 @@ footer {
     color: #FFF7F4;
     display: block;
     padding: 1em;
+}
+
+#storyboard {
+    float: none;
+    margin: auto;
+    width: 600px;
 }
 
 footer a{
