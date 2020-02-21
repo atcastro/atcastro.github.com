@@ -1,5 +1,5 @@
 function setup(){
-    var myCanvas = createCanvas(800,250);
+    var myCanvas = createCanvas(1000,250);
     background('#4F2339');
     myCanvas.parent(mySketch);
 }

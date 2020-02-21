@@ -1,0 +1,92 @@
+body{
+    background-color: #DEBE99;
+    background-image: url(images/pattern.png);
+    color: rgb(255, 250, 244);
+    font-family: 'Montserrat', sans-serif;
+    padding: 3em;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #DC5375;
+    border-radius: 20px;
+    padding: 0.8em;
+
+}
+
+#me {
+    width: 200px;
+    height: auto;
+    justify-content: space-around;
+    border-radius: 200px;
+    padding: 1.2em;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+}
+
+.items img{
+    width: 300px;
+    height: auto;
+}
+
+#sketchbook:hover{
+    opacity: 80%;
+}
+
+#laptop:hover{
+    opacity: 80%;
+}
+
+#keys:hover{
+    opacity: 80%;
+}
+
+/* ***Pop up Text*** */
+#sketchText {
+    background-color: #B5BD89;
+    padding: 5px;
+    width: 295px;
+    margin: 1em;
+    margin-top: .5em;
+}
+
+#lapText {
+    background-color: #EC9193;
+    padding: 5px;
+    width: 295px;
+    margin: 1em;
+    margin-top: .5em;
+}
+
+#keyText {
+    background-color: #739EA1;
+    padding: 5px;
+    width: 295px;
+    margin: 1em;
+    margin-top: .5em;
+}
+
+/* ****** */
+
+footer{
+    background-color: #DC5375;
+    border-radius: 20px;
+    padding: 1.1em;
+}
