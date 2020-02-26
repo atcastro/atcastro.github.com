@@ -2,15 +2,9 @@
 
     "use strict";
 
-/*     var sketch = document.getElementById('sketchbook');
-    var sketchText = document.getElementById('sketchText');
-
-    sketch.onclick = function(){
-        sketchText.style.display = 'block';
-    };  */
-    var sketchText = document.getElementById('sketchText');
-    var lapText = document.getElementById('lapText');
-    var keyText = document.getElementById('keyText');
+    const sketchText = document.getElementById('sketchText');
+    const lapText = document.getElementById('lapText');
+    const keyText = document.getElementById('keyText');
 
     document.getElementById('sketchbook').onclick = function(){
         sketchText.style.display = 'block';
@@ -35,7 +29,5 @@
     keyText.onclick = function(){
         keyText.style.display = 'none';
     };
-
-
 
 }());

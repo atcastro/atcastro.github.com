@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito';
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    background-color: #FFE5D9;
+    background-image: url('zig-zag.png');
+}
+
+header {
+    font-family: 'Knewave';
+    background-color: #F4ACB7;
+    border-radius: 20px;
+    color: white;
+}
+
+button {
+    background-color: #FFC153;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#score {
+    background-color: #EB6456;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#rules {
+    font-size: .9em;
+    color: rgb(44, 44, 44);
+}
+
+img {
+    width: 75px;
+}
+
+#roundScore {
+    width: 100px;
+    margin: auto;
+    font-size: 2.2em;
+    background: #EB6456;
+    color: white;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #F4ACB7;
+    color: white;
+    border-radius: 20px;
+}
