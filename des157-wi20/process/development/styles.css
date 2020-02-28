@@ -28,6 +28,12 @@ img{
     padding-left: 1em;
 }
 
+.proto {
+    width: 400px;
+    height: auto;
+    float: none;
+}
+
 #comps {
     float: none;
     width: 600px;
