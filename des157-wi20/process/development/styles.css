@@ -28,6 +28,14 @@ img{
     padding-left: 1em;
 }
 
+#comps {
+    float: none;
+    width: 600px;
+    height: auto;
+    padding: 1em;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
     color: #4F2339;
