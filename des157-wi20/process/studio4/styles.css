@@ -1,0 +1,130 @@
+body {
+    background: #001628;
+    color: #ffffff;
+    position: relative;
+    padding: 3em;
+    min-width: 600px;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background-color: #5BC0BE;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0%;
+    font-size: 2.5em;
+    font-family: 'Inconsolata', monospace;
+    box-shadow: 10px 10px black;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes appear {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+header h2 {
+    background-color: #EDC443;
+    color: black;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0%;
+    font-size: 1.7em;
+    font-family: 'Inconsolata', monospace;
+    box-shadow: 10px 10px black;
+    animation-name: subtitle;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes subtitle {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.left {
+    animation-name: test;
+}
+
+@keyframes disappear {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+#myForm {
+    width: 100%;
+    align-items: center;
+}
+
+#myForm p {
+    text-align: center;
+    margin-top: 2em;
+}
+
+form {
+    /* padding-bottom: 3em; */
+    font-size: .9em;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 5px 0px;
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 2px solid #5BC0BE;
+    border-radius: 5px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 100%;
+    background-color: #EDC443;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+
+#madlib {
+    padding: 1.3em;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #EDC443;
+    color: black;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    margin-top: 0%;
+    font-family: 'Inconsolata', monospace;
+    box-shadow: 10px 10px black;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
