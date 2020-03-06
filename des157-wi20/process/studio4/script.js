@@ -18,8 +18,11 @@
         const city = document.getElementById('city').value;
         event.preventDefault();
         
-        document.getElementById('myForm').style.display = "none";
-        document.getElementById('madlib').style.display = "block";
+        /* document.getElementById('myForm').style.display = "none"; */
+        $("#myForm").fadeOut();
+        /* document.getElementById('madlib').style.display = "block"; */
+        $("#madlib").fadeIn(3000);
+
 
         madlib.style.backgroundColor = '#3A506B';
         
