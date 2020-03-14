@@ -4,20 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat&display=swap" rel="stylesheet">
     <title>Adam Castro: Final Project</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <header id="title">
         <h1>Becoming You</h1>
         <h2>A Short Story of Self-Acceptance</h2>
     </header>
     
-    <div style="display: none;" class="story"></div>
+    <section id="story" >
+        <form id="quest1" style="display: none;">
+            <label for="fname">What's Your First Name</label><br>
+            <input type="text" id="fname" name="fname" value="Bob">
+            <input  type="submit" value="Submit">
+         </form>
 
-    <div class="nav">
-        <a href="#">Click Here to Begin</a>
+        <form id="quest2" style="display: none;">
+            <p>Choose something you like about yourself</p>
+            <input type="radio" class="positive" checked="checked" name="positive" id="funny" value="funny">
+            <label for="funny">Funny</label>
+            <input type="radio" class="positive" name="positive" id="smart" value="smart">
+            <label for="smart">Smart</label>
+            <input type="submit" value="Submit">
+        </form>
+
+        <form id="quest3" style="display: none;">
+            <p>Pick something you would like to imporve about yourself</p>
+            <input type="radio" class="negative" checked="checked" name="negative" id="loud" value="loud">
+            <label for="loud">Loud</label>
+            <input type="radio" class="negative" name="negative" id="quiet" value="quiet">
+            <label for="quiet">Quiet</label>
+            <input type="submit" value="Submit">
+        </form>
+
+        <form id="quest4" style="display: none;">
+            <p>How would you describe the world?</p>
+            <input type="radio" class="worldView" checked="checked" name="worldView" id="scary" value="scary">
+            <label for="scary">Scary</label>
+            <input type="radio" class="worldView" name="worldView" id="unforgiving" value="unforgiving">
+            <label for="unforgiving">Unforgiving</label>
+            <input type="radio" class="worldView" name="worldView" id="confusing" value="confusing">
+            <label for="confusing">Confusing</label>
+            <input type="submit" value="Submit">
+        </form>
+
+        <article id="story1" style="display: none;">
+            <img src="#" alt="#">
+            <p>Sometimes it can be easier to see the beauty in others...</p><br>
+            <p>Than it is seeing the beauty in yourself.</p><br>
+            <img src="#" alt="#">
+            <p>It can be easier to focus on what makes you different...
+            </p><br>
+            <p>Without seeing why it makes you special.</p>
+            <img src="#" alt="#">
+            <p>Sometimes...</p><br>
+            <p>The world just seems too important.</p><br>
+            <p>Loving yourself is one of the hardest challenges you can face in life.</p><br>
+            <p>To accept yourself for your flaws isn’t something someone can teach you, but it is a journey we must all take.</p><br>
+            <p>But you don’t have to do it alone.</p><br>
+            <p>When the world becomes too big, and you feel too small.
+            Taught to someone you trust, or speak with a professional.</p><br>
+            <p>Believe the people you love when they tell you how <span id= "span1"></span> you are.</p><br>
+            <p>And know that it’s true.</p><br>
+            <p>If you think you are <span id= "span2"></span>, be patient with yourself.</p><br>
+            <p>Think if you would be this hard on someone you care about.</p><br>
+            <p>And if you think the world is <span id= "span3"></span>, know that everyone else does too.</p><br>
+            <p>You are not alone. Everyone goes through what you are going through.</p><br>
+            <p>Take the good, take the bad, take everything that makes you YOU.</p><br>
+            <p>And once you know who you are.</p><br>
+            <p>You’ll truly be unstoppable.</p>
+            </p>
+        </article>
+
+        <article id="story2" style="display: none;">
+
+        </article>
+
+
+    </section>
+
+    <div id="navigation">
+        <a id="nav1" href="#">Click Here to Begin</a>
+        <a id="nav2" style="display: none;" href="#">Click Here to Continue</a>
+        <a class="mainNav" id="backNav" href="#">Back</a>
+        <a class="mainNav" id="forwardNav" href="#">Continue</a>
     </div>
+    
 
     <footer>
         <p><a href="&#097;&#116;&#099;&#097;&#115;&#116;&#114;&#111;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#097;&#116;&#099;&#097;&#115;&#116;&#114;&#111;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a> / <a href="https://validator.w3.org/check?uri=referer">Valid HTML</a> / <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></p>

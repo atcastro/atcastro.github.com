@@ -1,0 +1,36 @@
+body {
+    padding-top: 10vh;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-align: center;
+}
+
+header {
+    font-size: 1.2em;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.mainNav {
+    display: none;
+}
+
+img {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(233, 228, 205);
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: all 1s;
+}
+
+footer {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
