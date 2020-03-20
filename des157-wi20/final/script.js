@@ -21,7 +21,19 @@
     var span2 = document.getElementById('span2');
     var span3 = document.getElementById('span3');
 
-    var fname;
+    var Ploud = document.getElementById('Ploud');
+    var Pquiet = document.getElementById('Pquiet');
+    var Pstressed = document.getElementById('Pstressed');
+    var Pmean = document.getElementById('Pmean');
+    var Pangry = document.getElementById('Pangry');
+
+    var LVscary = document.getElementById('LVscary');
+    var LVconfusing = document.getElementById('LVconfusing');
+    var LVunforgiving = document.getElementById('LVunforgiving');
+
+    var storyPics = document.getElementsByClassName('storyPics');
+
+    var firstName;
     var positive;
     var negative;
     var worldView;
@@ -37,7 +49,7 @@
         event.preventDefault();
         quest1.style.display = "none";
         quest2.style.display = "block";
-        var fname = document.getElementById('fname').value
+        firstName = document.getElementById('fname').value;
         console.log(fname);
     });
 
@@ -79,10 +91,28 @@
         story1.style.display = "block";
         mainNav.style.display = "block";
         span1.innerHTML = `${positive}`;
-        span2.innerHTML = `${negative}`;
-        span3.innerHTML = `${worldView}`;
-        console.log(worldView);
+        span2.innerHTML = `${firstName}`;
+
         story1.style.display = "block";
+        if(negative == 'loud'){
+            Ploud.style.display = "block";
+        } else if(negative == 'quiet'){
+            Pquiet.style.display = "block";
+        } else if(negative == 'mean'){
+            Pmean.style.display = "block";
+        }else if(negative == 'stressed'){
+            Pstressed.style.display = "block";
+        }else if(negative == 'angry'){
+            Pangry.style.display = "block";
+        }
+
+        if(worldView == 'scary'){
+            LVscary.style.display = "block";
+        }else if(worldView == 'confusing'){
+            LVconfusing.style.display = "block";
+        }else if(worldView == 'unforgiving'){
+            LVunforgiving.style.display = "block";
+        }
         mainNav.style.display = "block";
     });
 

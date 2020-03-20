@@ -1,22 +1,50 @@
 body {
     padding-top: 10vh;
     font-family: 'Indie Flower', cursive;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(36, 36, 36);
+    background-image: url(images/otis-redding.png);
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 header {
     font-size: 1.2em;
     display: block;
     padding-bottom: 30px;
+    
+}
+
+#titleGraphic {
+    width: 600px;
+    height: auto;
+    animation-name: appear;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes appear {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.storyPics {
+    width: 600px;
+    height: 500px;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
 }
 
 .mainNav {
-    display: none;
-}
-
-img {
     display: none;
 }
 
@@ -26,7 +54,7 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    color: rgb(255, 213, 28);
     transition: all 1s;
 }
 
